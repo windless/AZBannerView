@@ -1,9 +1,9 @@
 {
   "name": "AZBannerView",
   "version": "0.1.0",
-  "summary": "A short description of AZBannerView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/AZBannerView",
+  "summary": "BannerView",
+  "description": "BannerView lib",
+  "homepage": "https://github.com/windless/AZBannerView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "Abner Zhong": "windlessg@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/AZBannerView.git",
+    "git": "https://github.com/windless/AZBannerView.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "AZBannerView/Classes/**/*"
+  "source_files": "AZBannerView/Classes/**/*",
+  "dependencies": {
+    "Kingfisher": [
+      "~> 2.4"
+    ]
+  }
 }

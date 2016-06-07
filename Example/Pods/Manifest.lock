@@ -1,5 +1,7 @@
 PODS:
-  - AZBannerView (0.1.0)
+  - AZBannerView (0.1.0):
+    - Kingfisher (~> 2.4)
+  - Kingfisher (2.4.1)
 
 DEPENDENCIES:
   - AZBannerView (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AZBannerView: 277684c3db5fa2c2deaf556fb9c15342ec1f6b46
+  AZBannerView: d706018b8dcd4e4348b32a2c20d76b958ffa864c
+  Kingfisher: 41aed5b6c1ed8fa98cf6d75283ce89cf7890f517
 
 PODFILE CHECKSUM: 32bf543c69053147609fccea385b6d586c1b49a4
 

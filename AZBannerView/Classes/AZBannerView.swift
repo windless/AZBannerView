@@ -1,5 +1,6 @@
 
 import UIKit
+import Kingfisher
 
 public protocol AZBannerViewDelegate {
     func bannerView(bannerView: AZBannerView, didClick page:Int)
@@ -68,6 +69,10 @@ public class AZBannerView: UIView, UIScrollViewDelegate {
                 let imageView = UIImageView()
                 imageView.tag = i
                 imageView.userInteractionEnabled = true
+                imageView.contentMode = .ScaleAspectFit
+                if let url = NSURL(string: newValue[i]) {
+                    imageView.kf_setImageWithURL(url)
+                }
                 scrollView.addSubview(imageView)
                 views.append(imageView)
                 
@@ -95,8 +100,8 @@ public class AZBannerView: UIView, UIScrollViewDelegate {
             let frame = CGRect(
                 x: 0 + (CGFloat(i) * scrollView.frame.size.width),
                 y: 0,
-                width: scrollView.frame.size.width - 10,
-                height: scrollView.frame.size.height - 10
+                width: scrollView.frame.size.width,
+                height: scrollView.frame.size.height
             )
             imageViews[i].frame = frame
         }

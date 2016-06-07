@@ -19,7 +19,11 @@ class ViewController: UIViewController, AZBannerViewDelegate {
         banner.backgroundColor = UIColor.grayColor()
         self.view.addSubview(banner)
         
-        banner.imageUrls = ["", "", ""]
+        banner.imageUrls = [
+            "http://c.hiphotos.baidu.com/zhidao/pic/item/8435e5dde71190ef6c6acea8c91b9d16fdfa6037.jpg",
+            "http://c.hiphotos.baidu.com/zhidao/pic/item/8435e5dde71190ef6c6acea8c91b9d16fdfa6037.jpg",
+            "http://h.hiphotos.baidu.com/zhidao/wh%3D450%2C600/sign=5f39345051e736d15846840cae6063f4/6c224f4a20a44623eec0dfee9d22720e0cf3d730.jpg"
+        ]
         
         banner.startAnimating()
         banner.delegate = self
