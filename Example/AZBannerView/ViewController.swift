@@ -7,17 +7,26 @@
 //
 
 import UIKit
+import AZBannerView
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, AZBannerViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let banner = AZBannerView()
+        banner.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: 200)
+        banner.backgroundColor = UIColor.grayColor()
+        self.view.addSubview(banner)
+        
+        banner.imageUrls = ["", "", ""]
+        
+        banner.startAnimating()
+        banner.delegate = self
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func bannerView(bannerView: AZBannerView, didClick page: Int) {
+        print("\(page)")
     }
 
 }

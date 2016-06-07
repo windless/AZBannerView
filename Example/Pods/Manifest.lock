@@ -1,0 +1,16 @@
+PODS:
+  - AZBannerView (0.1.0)
+
+DEPENDENCIES:
+  - AZBannerView (from `../`)
+
+EXTERNAL SOURCES:
+  AZBannerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AZBannerView: 277684c3db5fa2c2deaf556fb9c15342ec1f6b46
+
+PODFILE CHECKSUM: 32bf543c69053147609fccea385b6d586c1b49a4
+
+COCOAPODS: 1.0.0

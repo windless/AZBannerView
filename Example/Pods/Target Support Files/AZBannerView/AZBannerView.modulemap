@@ -1,0 +1,6 @@
+framework module AZBannerView {
+  umbrella header "AZBannerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

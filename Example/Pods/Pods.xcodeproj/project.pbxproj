@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06224D176DBDD67586CC7C31C49F27C5 /* AZBannerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFD9BE1D1A0ED00A38F4BFAC0EE06209 /* AZBannerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		098133FB52ECD9B12A64A6BD3D91B948 /* AZBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBAB619A6B77FC07836BCBA42DC6BA1 /* AZBannerView.swift */; };
+		0BB15D0ED359650861A692F48706CCCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		5A82BE3B3CF61824F2B29E7A45EE89A7 /* Pods-AZBannerView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B79DAED35FBC621BE325FDC57366913 /* Pods-AZBannerView_Tests-dummy.m */; };
+		8830C89016ABE5A4AD23F36DBDA93538 /* AZBannerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27388E054B9BE9F515FDC6A2E2740498 /* AZBannerView-dummy.m */; };
+		90A7C5C1CAEE4F11811847F8838BB270 /* Pods-AZBannerView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA65F0F52513047CFF787AA325FC15F1 /* Pods-AZBannerView_Example-dummy.m */; };
+		AA2CCC3E5E16BC56624FB01452730F4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		ACF500A51FF37F3D652D64D9DDF7BEAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		B78B3C10CE3FD5309E13B81C260A8ED4 /* Pods-AZBannerView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 591FC8692E95BB81F9AE38C5433B91B7 /* Pods-AZBannerView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7FCB4D63802ECC04169CBB77FD56D90 /* Pods-AZBannerView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02F6C29A5E3EF082921DCE0830222471 /* Pods-AZBannerView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7AED7E2696F9BEE875F7B010047D6FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2034F751345EAC39A7738FD6FDA4B56D;
+			remoteInfo = AZBannerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01BDB44A15A11D049273D691EB5E78D3 /* Pods-AZBannerView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AZBannerView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		02F6C29A5E3EF082921DCE0830222471 /* Pods-AZBannerView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AZBannerView_Example-umbrella.h"; sourceTree = "<group>"; };
+		06609EC4466529658464E4D6D6A550CC /* Pods-AZBannerView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZBannerView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1CBAB619A6B77FC07836BCBA42DC6BA1 /* AZBannerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AZBannerView.swift; sourceTree = "<group>"; };
+		1F12526D9255727A1D7697DD066D8716 /* Pods-AZBannerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZBannerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		27388E054B9BE9F515FDC6A2E2740498 /* AZBannerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AZBannerView-dummy.m"; sourceTree = "<group>"; };
+		296A2A58A06F9DC60C64CEE87E715F6A /* Pods-AZBannerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZBannerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		30E024BA6EEED2831E06AD1C6F78BF14 /* Pods-AZBannerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZBannerView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3B79DAED35FBC621BE325FDC57366913 /* Pods-AZBannerView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AZBannerView_Tests-dummy.m"; sourceTree = "<group>"; };
+		44EAEB0E07BCE3FF347FC65C30E4303B /* Pods-AZBannerView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AZBannerView_Example.modulemap"; sourceTree = "<group>"; };
+		591FC8692E95BB81F9AE38C5433B91B7 /* Pods-AZBannerView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AZBannerView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5F1D7EF18466B4F1C46B3EA39B51CE2A /* Pods-AZBannerView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AZBannerView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		81B24F74FAA319FB97549AE979283D6F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		902DE8F1732FC7FFE282664428BC5823 /* Pods-AZBannerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZBannerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A792B1F5CB1FAA926B776F8D20552B47 /* Pods-AZBannerView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AZBannerView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BFB1011BF8BF9BE7A4E9261E001D8B6E /* AZBannerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AZBannerView.modulemap; sourceTree = "<group>"; };
+		C2591FB3A2B7E2C274AE0584BEA86F9B /* Pods-AZBannerView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AZBannerView_Tests.modulemap"; sourceTree = "<group>"; };
+		C3C1F45541A61E66828A5D3C077E034E /* AZBannerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AZBannerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45CEE90C7F32B3F2B258E7F0D949EF8 /* Pods-AZBannerView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZBannerView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C48861157200D72D24DDC27D9230C21D /* Pods_AZBannerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZBannerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9FEFB50D1CD5B4B5521003A0F22BAC9 /* AZBannerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZBannerView-prefix.pch"; sourceTree = "<group>"; };
+		CA65F0F52513047CFF787AA325FC15F1 /* Pods-AZBannerView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AZBannerView_Example-dummy.m"; sourceTree = "<group>"; };
+		CC33A58902EFFC753D8D056C906873A1 /* AZBannerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AZBannerView.xcconfig; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFBD943621AB501CECFC08C4F44045F6 /* Pods-AZBannerView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZBannerView_Example-resources.sh"; sourceTree = "<group>"; };
+		CFD9BE1D1A0ED00A38F4BFAC0EE06209 /* AZBannerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZBannerView-umbrella.h"; sourceTree = "<group>"; };
+		D6345BFF4F70D9D957C126639713631A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2BDAC8B3EB4E84B19D81D4C50DFF651 /* Pods-AZBannerView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZBannerView_Tests-resources.sh"; sourceTree = "<group>"; };
+		EBF0E2D3C19DA34FB5C1EF732E04B3CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3C0194EFCD3B4C4DB0EA8600974445 /* Pods_AZBannerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZBannerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F810B373EAE203C085839EC73EBBBE07 /* Pods-AZBannerView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AZBannerView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AD914951ED49F87974A70BFCE4265E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2CCC3E5E16BC56624FB01452730F4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		824F6767A6566C772BACCCA2EF0C1E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF500A51FF37F3D652D64D9DDF7BEAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946C06232B85BE5DC6B566A01F57F798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB15D0ED359650861A692F48706CCCA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009FBD360902F6446474F879F7038F1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3C1F45541A61E66828A5D3C077E034E /* AZBannerView.framework */,
+				ED3C0194EFCD3B4C4DB0EA8600974445 /* Pods_AZBannerView_Example.framework */,
+				C48861157200D72D24DDC27D9230C21D /* Pods_AZBannerView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		658F752F433870C56731D2CF0C6AED4A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFB1011BF8BF9BE7A4E9261E001D8B6E /* AZBannerView.modulemap */,
+				CC33A58902EFFC753D8D056C906873A1 /* AZBannerView.xcconfig */,
+				27388E054B9BE9F515FDC6A2E2740498 /* AZBannerView-dummy.m */,
+				C9FEFB50D1CD5B4B5521003A0F22BAC9 /* AZBannerView-prefix.pch */,
+				CFD9BE1D1A0ED00A38F4BFAC0EE06209 /* AZBannerView-umbrella.h */,
+				EBF0E2D3C19DA34FB5C1EF732E04B3CD /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AZBannerView";
+			sourceTree = "<group>";
+		};
+		68897AB50BBF5CBB382E914FC57C4AD9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1CBAB619A6B77FC07836BCBA42DC6BA1 /* AZBannerView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		762DD6D518D7A365245A9B2C4D068D79 /* Pods-AZBannerView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D6345BFF4F70D9D957C126639713631A /* Info.plist */,
+				44EAEB0E07BCE3FF347FC65C30E4303B /* Pods-AZBannerView_Example.modulemap */,
+				F810B373EAE203C085839EC73EBBBE07 /* Pods-AZBannerView_Example-acknowledgements.markdown */,
+				01BDB44A15A11D049273D691EB5E78D3 /* Pods-AZBannerView_Example-acknowledgements.plist */,
+				CA65F0F52513047CFF787AA325FC15F1 /* Pods-AZBannerView_Example-dummy.m */,
+				06609EC4466529658464E4D6D6A550CC /* Pods-AZBannerView_Example-frameworks.sh */,
+				CFBD943621AB501CECFC08C4F44045F6 /* Pods-AZBannerView_Example-resources.sh */,
+				02F6C29A5E3EF082921DCE0830222471 /* Pods-AZBannerView_Example-umbrella.h */,
+				1F12526D9255727A1D7697DD066D8716 /* Pods-AZBannerView_Example.debug.xcconfig */,
+				30E024BA6EEED2831E06AD1C6F78BF14 /* Pods-AZBannerView_Example.release.xcconfig */,
+			);
+			name = "Pods-AZBannerView_Example";
+			path = "Target Support Files/Pods-AZBannerView_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C01CDF7D6D154C780F576023E5201CD0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				009FBD360902F6446474F879F7038F1A /* Products */,
+				CE5958F8A626897303D73E13CA2E68F7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8954EA769A5F131DFA8C35832BA8300C /* AZBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				AC7BEBDB92DD31E44FC178B6A85A6A88 /* AZBannerView */,
+				658F752F433870C56731D2CF0C6AED4A /* Support Files */,
+			);
+			name = AZBannerView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AC7BEBDB92DD31E44FC178B6A85A6A88 /* AZBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				68897AB50BBF5CBB382E914FC57C4AD9 /* Classes */,
+			);
+			path = AZBannerView;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C01CDF7D6D154C780F576023E5201CD0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8954EA769A5F131DFA8C35832BA8300C /* AZBannerView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CE5958F8A626897303D73E13CA2E68F7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				762DD6D518D7A365245A9B2C4D068D79 /* Pods-AZBannerView_Example */,
+				DA11F7ADE5324B522951DB984263CBFC /* Pods-AZBannerView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DA11F7ADE5324B522951DB984263CBFC /* Pods-AZBannerView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				81B24F74FAA319FB97549AE979283D6F /* Info.plist */,
+				C2591FB3A2B7E2C274AE0584BEA86F9B /* Pods-AZBannerView_Tests.modulemap */,
+				5F1D7EF18466B4F1C46B3EA39B51CE2A /* Pods-AZBannerView_Tests-acknowledgements.markdown */,
+				A792B1F5CB1FAA926B776F8D20552B47 /* Pods-AZBannerView_Tests-acknowledgements.plist */,
+				3B79DAED35FBC621BE325FDC57366913 /* Pods-AZBannerView_Tests-dummy.m */,
+				C45CEE90C7F32B3F2B258E7F0D949EF8 /* Pods-AZBannerView_Tests-frameworks.sh */,
+				E2BDAC8B3EB4E84B19D81D4C50DFF651 /* Pods-AZBannerView_Tests-resources.sh */,
+				591FC8692E95BB81F9AE38C5433B91B7 /* Pods-AZBannerView_Tests-umbrella.h */,
+				296A2A58A06F9DC60C64CEE87E715F6A /* Pods-AZBannerView_Tests.debug.xcconfig */,
+				902DE8F1732FC7FFE282664428BC5823 /* Pods-AZBannerView_Tests.release.xcconfig */,
+			);
+			name = "Pods-AZBannerView_Tests";
+			path = "Target Support Files/Pods-AZBannerView_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		497E83EC93C74F4E87DB3FACE6BB4231 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06224D176DBDD67586CC7C31C49F27C5 /* AZBannerView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC24D123D588292EC52C46546E185FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78B3C10CE3FD5309E13B81C260A8ED4 /* Pods-AZBannerView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A378C6052D97590D6E8B5832BEFDEE67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7FCB4D63802ECC04169CBB77FD56D90 /* Pods-AZBannerView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05B8CE3B5575471F183FE07FB84201D9 /* Pods-AZBannerView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E909BFDC70DD1E823B988044A43B21AA /* Build configuration list for PBXNativeTarget "Pods-AZBannerView_Tests" */;
+			buildPhases = (
+				EFF8DB478E546DCE199CC1978EBF70E2 /* Sources */,
+				824F6767A6566C772BACCCA2EF0C1E4E /* Frameworks */,
+				6CC24D123D588292EC52C46546E185FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AZBannerView_Tests";
+			productName = "Pods-AZBannerView_Tests";
+			productReference = C48861157200D72D24DDC27D9230C21D /* Pods_AZBannerView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2034F751345EAC39A7738FD6FDA4B56D /* AZBannerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2A87782D935131738309224B5C08CF /* Build configuration list for PBXNativeTarget "AZBannerView" */;
+			buildPhases = (
+				2090FE91B6535F24B13A7DAF75E9F52F /* Sources */,
+				946C06232B85BE5DC6B566A01F57F798 /* Frameworks */,
+				497E83EC93C74F4E87DB3FACE6BB4231 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AZBannerView;
+			productName = AZBannerView;
+			productReference = C3C1F45541A61E66828A5D3C077E034E /* AZBannerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76800DADF8DB05AD4BCBB8882AA4D576 /* Pods-AZBannerView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8C112014260E1949C46C90469FB7D19 /* Build configuration list for PBXNativeTarget "Pods-AZBannerView_Example" */;
+			buildPhases = (
+				88BAF31E29A8D888996A8E75F5014BC2 /* Sources */,
+				3AD914951ED49F87974A70BFCE4265E7 /* Frameworks */,
+				A378C6052D97590D6E8B5832BEFDEE67 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				616BE9CF077520936241F3E2943D42F8 /* PBXTargetDependency */,
+			);
+			name = "Pods-AZBannerView_Example";
+			productName = "Pods-AZBannerView_Example";
+			productReference = ED3C0194EFCD3B4C4DB0EA8600974445 /* Pods_AZBannerView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 009FBD360902F6446474F879F7038F1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2034F751345EAC39A7738FD6FDA4B56D /* AZBannerView */,
+				76800DADF8DB05AD4BCBB8882AA4D576 /* Pods-AZBannerView_Example */,
+				05B8CE3B5575471F183FE07FB84201D9 /* Pods-AZBannerView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2090FE91B6535F24B13A7DAF75E9F52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8830C89016ABE5A4AD23F36DBDA93538 /* AZBannerView-dummy.m in Sources */,
+				098133FB52ECD9B12A64A6BD3D91B948 /* AZBannerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88BAF31E29A8D888996A8E75F5014BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A7C5C1CAEE4F11811847F8838BB270 /* Pods-AZBannerView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF8DB478E546DCE199CC1978EBF70E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A82BE3B3CF61824F2B29E7A45EE89A7 /* Pods-AZBannerView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		616BE9CF077520936241F3E2943D42F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AZBannerView;
+			target = 2034F751345EAC39A7738FD6FDA4B56D /* AZBannerView */;
+			targetProxy = C7AED7E2696F9BEE875F7B010047D6FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		362A0055641EA567C1EA035499F501D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC33A58902EFFC753D8D056C906873A1 /* AZBannerView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AZBannerView/AZBannerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AZBannerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AZBannerView/AZBannerView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AZBannerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		379108198C3800494C58C69D6A3044EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E024BA6EEED2831E06AD1C6F78BF14 /* Pods-AZBannerView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AZBannerView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AZBannerView_Example/Pods-AZBannerView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AZBannerView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		872334DCADFDD3B61AAB5AE7E1357520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F12526D9255727A1D7697DD066D8716 /* Pods-AZBannerView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AZBannerView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AZBannerView_Example/Pods-AZBannerView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AZBannerView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9166710BFE8823AFE90BE347785DC697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 902DE8F1732FC7FFE282664428BC5823 /* Pods-AZBannerView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AZBannerView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AZBannerView_Tests/Pods-AZBannerView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AZBannerView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BFBBA4486130CA22CFDD7E2A971865BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 296A2A58A06F9DC60C64CEE87E715F6A /* Pods-AZBannerView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AZBannerView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AZBannerView_Tests/Pods-AZBannerView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AZBannerView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E5379E0B0CB0F509EB812F1472E9B9DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC33A58902EFFC753D8D056C906873A1 /* AZBannerView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AZBannerView/AZBannerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AZBannerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AZBannerView/AZBannerView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AZBannerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8C112014260E1949C46C90469FB7D19 /* Build configuration list for PBXNativeTarget "Pods-AZBannerView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				872334DCADFDD3B61AAB5AE7E1357520 /* Debug */,
+				379108198C3800494C58C69D6A3044EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E909BFDC70DD1E823B988044A43B21AA /* Build configuration list for PBXNativeTarget "Pods-AZBannerView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFBBA4486130CA22CFDD7E2A971865BD /* Debug */,
+				9166710BFE8823AFE90BE347785DC697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2A87782D935131738309224B5C08CF /* Build configuration list for PBXNativeTarget "AZBannerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362A0055641EA567C1EA035499F501D8 /* Debug */,
+				E5379E0B0CB0F509EB812F1472E9B9DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

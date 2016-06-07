@@ -1,0 +1,22 @@
+{
+  "name": "AZBannerView",
+  "version": "0.1.0",
+  "summary": "A short description of AZBannerView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/AZBannerView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Abner Zhong": "windlessg@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/AZBannerView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AZBannerView/Classes/**/*"
+}
