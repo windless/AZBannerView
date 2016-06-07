@@ -94,7 +94,7 @@ public class AZBannerView: UIView, UIScrollViewDelegate {
                                   height: self.frame.size.height)
         
         pageControl.frame = CGRect(x: 0, y: 0, width: 100, height: 20)
-        pageControl.center = CGPoint(x: self.frame.size.width / 2, y: self.frame.size.height - 20)
+        pageControl.center = CGPoint(x: self.frame.size.width / 2, y: self.frame.size.height - 10)
         
         for i in 0..<imageViews.count {
             let frame = CGRect(
