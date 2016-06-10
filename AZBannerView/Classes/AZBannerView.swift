@@ -2,7 +2,7 @@
 import UIKit
 import Kingfisher
 
-public protocol AZBannerViewDelegate {
+public protocol AZBannerViewDelegate: class {
     func bannerView(bannerView: AZBannerView, didClick page:Int)
 }
 
@@ -18,7 +18,7 @@ public class AZBannerView: UIView, UIScrollViewDelegate {
         }
     }
     var timer: NSTimer?
-    public var delegate: AZBannerViewDelegate?
+    public weak var delegate: AZBannerViewDelegate?
     public var timeInterval: NSTimeInterval = 10
     public var pageIndicatorTintColor: UIColor? {
         get {
